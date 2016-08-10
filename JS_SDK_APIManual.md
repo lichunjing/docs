@@ -1,4 +1,4 @@
-# Yunba JavaScript SDK API
+# Yunba JavaScript SDK API 手册
 
 ## init
 
