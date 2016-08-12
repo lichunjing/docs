@@ -27,7 +27,7 @@
 ### 2. 打开工程
 本文以 [Yunba C# SDK](https://github.com/yunba/yunba-csharp-sdk) 的 Sample 工程为例，演示 C# SDK 的使用。
 
-解压下载的 Zip 文件，在 Visual Studio 2015 中打开 "MqttDotNet.sln" 工程。如图：
+解压下载的 Zip 文件，在 Visual Studio 2013 中打开 "MqttDotNet.sln" 工程。如图：
 
 
 ![csharp_MqttDotNet.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/csharp_MqttDotNet.png)
@@ -67,5 +67,5 @@
 
 **注**：
 
-如需清除用户信息，可删除工程 "bin/Debug" 路径下的 "*.config" 文件。
+如需清除用户信息，可删除工程 "bin/Debug" 路径下所有以 ".config" 为后缀名的文件。
 
