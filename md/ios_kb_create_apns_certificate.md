@@ -21,7 +21,7 @@
 
 	**注**：如果你的系统中没有中间签名证书，则需要下载并安装到你的系统中：
 
-	![iospng_cert_before_iospng_cert_creat_certificateificate.png](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_cert_before_iospng_cert_creat_certificateificate.png)
+	![iospng_cert_before_create_certificate.png](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_cert_before_create_certificate.png)
 
 4. 为证书选择对应需要推送功能的 App ID，点击继续；
 
