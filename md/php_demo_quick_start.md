@@ -116,7 +116,7 @@ $yunba->subscribe(array(
 
 同一个 AppKey 下并且订阅了该 Topic 的 Android 端将收到消息，如下图：
 
-![phppng_demo_received_message.jpg](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_received_message.jpg)
+![phppng_demo_received_message.png](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_received_message.png)
 
 
 **Mac 平台**

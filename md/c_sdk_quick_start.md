@@ -3,12 +3,12 @@
 
 打开 [云巴官方网站](http://yunba.io)， 点击注册创建账号。
 
-![create_accout.jpg](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_porttal_register_account.png)
+![create_accout.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_porttal_register_account.png)
 
 ## 创建应用
 注册账号成功跳转到我的应用界面，点击我的应用 --> 创建新应用，输入应用名称和包名
 
-![productpng_portal_creat_application.jpg](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_creat_app.png)
+![productpng_portal_creat_application.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_creat_app.png)
 
 
 ##从哪里获得 SDK
