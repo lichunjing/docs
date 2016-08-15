@@ -25,7 +25,7 @@
 下载的 yunba-sdk-release.jar 包放到项目的 libs 目录下。
 
 
-![androidpng_sdk_include_lib.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_sdk_include_lib.jpeg)
+![androidpng_sdk_include_lib.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_sdk_include_lib.png)
 
 
 开发工具为 Android Studio 的 Android SDK 导入步骤可参考 [Demo 运行文档](android_demo_quick_start.md)。
@@ -232,7 +232,7 @@ YunBa 系统 Publish 的消息会通过广播的形式传递给 App， App 通�
 打开应用详情页面，点击 “发布上报统计” 可以查看消息发布 **实时送达比**，如图所示:
 
 
-![report.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_statistic.png)
+![report.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_statistic.png)
 
 
 ## 在 Portal 查看用户在线信息实时报表
@@ -240,7 +240,7 @@ YunBa 系统 Publish 的消息会通过广播的形式传递给 App， App 通�
 打开应用详情页面，点击 “在线用户统计” 可以查看当前在线用户数，用户活跃数等信息，如图所示:
 
 
-![online.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_online_statistic.png)
+![online.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_online_statistic.png)
 
 
 **注**：

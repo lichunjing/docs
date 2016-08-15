@@ -47,7 +47,7 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 
 ## 云巴 Portal 的发布上报统计
 
-![report.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_statistic.png)
+![report.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_statistic.png)
 
 如图所示，可查看该应用（[AppKey](product_kb_app_key.md)） 下的消息发布和送达情况。
 
@@ -55,7 +55,7 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 
 ## 云巴 Portal 的在线用户统计
 
-![online.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_online_statistic.png)
+![online.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_online_statistic.png)
 
 - 一段时间内的在线用户数：该时间段内持续在线（connected）的用户数量。如：“在线用户数/小时” 的单位表示该小时内持续在线，未断开与云巴的长连接的用户数量。
 - 一段时间内的活跃用户数：该时间段内进行过上线操作的用户数量（不一定持续在线）。如：“活跃用户数/小时” 的单位表示该小时内进行过上线操作，即连接过云巴服务的用户数量。
