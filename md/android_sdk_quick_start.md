@@ -186,7 +186,7 @@ YunBa 系统 Publish 的消息会通过广播的形式传递给 App， App 通�
 在 Eclipse 中重新编译项目生成新的 R 文件，在MainActivity，DemoUtil，APIActivity，YunBaTabActivity 重新导入 R 文件。
 
 
-![此处输入图片的描述](https://github.com/yunba/docs/blob/master/image/gen%20R.png?raw=true)
+![此处输入图片的描述](https://github.com/yunba/docs/blob/master/image/androidpng_sdk_genr.png?raw=true)
 
 
 ![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_sdk_rfi.png)
@@ -210,13 +210,13 @@ YunBa 系统 Publish 的消息会通过广播的形式传递给 App， App 通�
 ### 程序运行主界面
 
 
-![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/main%20window.png)
+![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_sdk_main_window.png)
 
 
 ### API 接口界面展示
 
 
-![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/app%20api.png)
+![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_demo_api.png)
 
 
 ## 在 Portal 上发布消息

@@ -36,14 +36,14 @@
 右击 Sample 工程，选择“设为启动项目”。
 
 
-![csharppng_demo_select_project.png](https://github.com/yunba/docs/blob/master/image/csharp_select_%20project.png)
+![csharppng_demo_select_project.png](https://github.com/yunba/docs/blob/master/image/csharppng_demo_select_project.png)
 
 
 ### 3. 运行程序
 运行程序，会生成 "\yunba-csharp-sdk-master\Sample\bin\Debug" 路径下的 "Sample.exe"。
 在控制台进入该路径，启动 "Sample.exe" ，同时输入 AppKey，如图: 
 
-![csharppng_demo_run_project.png](https://raw.githubusercontent.com/yunba/docs/master/image/csharp_run_the_%20project.png)
+![csharppng_demo_run_project.png](https://raw.githubusercontent.com/yunba/docs/master/image/csharppng_demo_run_project.png)
 
 连接成功之后会显示 "Client connected",可以按任意键继续往下执行。如图:
 
@@ -51,7 +51,7 @@
 
 按任意键之后将出现如下提示:
 
-![csharppng_demo_enter_commonId.png](https://raw.githubusercontent.com/yunba/docs/master/image/csharp_enter%20_common_id.png)
+![csharppng_demo_enter_commonId.png](https://raw.githubusercontent.com/yunba/docs/master/image/csharppng_demo_enter_commonId.png)
 
 可以先订阅话题 `subscribe()` :
 
