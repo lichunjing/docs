@@ -57,7 +57,7 @@ port | Number | Socket.IO API 端口，默认值 3000。
 --------- | ------- | -----------
 msg | String | 连接信息。
 
-## connect
+## connect_v2
 ### 功能
 
 触发 connect 命令，与 Socket.IO 服务器确认身份。以下两种方式任选其一即可，推荐使用 [AppKey](product_kb_app_key.md) + CustomID 方式进行连接，可保证每次连接都能使用相同的 Session。
@@ -65,8 +65,8 @@ msg | String | 连接信息。
 ### 代码示例
 
 ```python
-socketIO.emit('connect', {'appkey': '52fcc04c4dc903d66d6f8f92'})       # 使用 AppKey 进行连接
-socketIO.emit('connect', {'appkey': '52fcc04c4dc903d66d6f8f92', 'customid': 'userid'})       # 使用 AppKey 和自定义的会话 ID 进行连接
+socketIO.emit('connect_v2', {'appkey': '52fcc04c4dc903d66d6f8f92'})       # 使用 AppKey 进行连接
+socketIO.emit('connect_v2', {'appkey': '52fcc04c4dc903d66d6f8f92', 'customid': 'userid'})       # 使用 AppKey 和自定义的会话 ID 进行连接
 ```
 ### 参数说明
 名称 | 类型 | 说明

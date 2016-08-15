@@ -3,18 +3,18 @@
   release: true
   docs: 
     - name: 云巴是什么
-      markdown: Product_KB_WhatsYunba.md
-      url: Product_KB_WhatsYunba
+      markdown: product_kb_whats_yunba.md
+      url: product_kb_whats_yunba
       show: true
       release: true
     - name: 常见问题解答（FAQ）
-      markdown: Product_FAQ.md
-      url: Product_FAQ
+      markdown: product_faq.md
+      url: product_faq
       show: true
       release: true
     - name: 云巴快速入门教程
-      markdown: Product_KB_YunbaQuickStart.md
-      url: Product_KB_YunbaQuickStart
+      markdown: product_kb_yunba_quick_start.md
+      url: product_kb_yunba_quick_start
       show: true
       release: true
 
@@ -23,38 +23,38 @@
   release: true
   docs: 
     - name: 频道和别名
-      markdown: Product_KB_TopicAndAlias.md
-      url: Product_KB_TopicAndAlias
+      markdown: product_kb_topic_and_alias.md
+      url: product_kb_topic_and_alias
       show: true
       release: true
     - name: AppKey
-      markdown: Product_KB_AppKey.md
-      url: Product_KB_AppKey
+      markdown: product_kb_app_key.md
+      url: product_kb_app_key
       show: true
       release: true
     - name: Portal
-      markdown: Product_KB_Portal.md
-      url: Product_KB_Portal
+      markdown: product_kb_portal.md
+      url: product_kb_portal
       show: true
       release: true
     - name: 云巴的实时在线
-      markdown: Product_KB_Presence.md
-      url: Product_KB_Presence
+      markdown: product_kb_presence.md
+      url: product_kb_presence
       show: true
       release: true
     - name: 云巴的离线消息
-      markdown: Product_KB_OfflineMessage.md
-      url: Product_KB_OfflineMessage
+      markdown: product_kb_offline_message.md
+      url: product_kb_offline_message
       show: true
       release: true
     - name: QoS
-      markdown: Product_KB_QoS.md
-      url: Product_KB_QoS
+      markdown: product_kb_qos.md
+      url: product_kb_qos
       show: true
       release: true
     - name: 云巴服务的 IP 是不固定的
-      markdown: Product_KB_YunbaUnfixedIP.md
-      url: Product_KB_YunbaUnfixedIP
+      markdown: product_kb_yunba_unfixed_ip.md
+      url: product_kb_yunba_unfixed_ip
       show: true
       release: true
 
@@ -63,28 +63,28 @@
   release: true
   docs: 
     - name: 云巴 Android 消息推送
-      markdown: Android_KB_AndroidPush.md
-      url: Android_KB_AndroidPush
+      markdown: android_kb_android_push.md
+      url: android_kb_android_push
       show: true
       release: true
     - name: Android SDK 快速入门
-      markdown: Android_SDK_QuickStart.md
-      url: Android_SDK_QuickStart
+      markdown: android_sdk_quick_start.md
+      url: android_sdk_quick_start
       show: true
       release: true
     - name: Android SDK API 手册
-      markdown: Android_SDK_APIManual.md
-      url: Android_SDK_APIManual
+      markdown: android_sdk_api_manual.md
+      url: android_sdk_api_manual
       show: true
       release: true
     - name: Android SDK 使用指南
-      markdown: Android_SDK_Tutorial.md
-      url: Android_SDK_Tutorial
+      markdown: android_sdk_tutorial.md
+      url: android_sdk_tutorial
       show: true
       release: true
     - name: 运行 Yunba Android Demo
-      markdown: Android_Demo_QuickStart.md
-      url: Android_Demo_QuickStart
+      markdown: android_demo_quick_start.md
+      url: android_demo_quick_start
       show: true 
       release: true
 
@@ -95,58 +95,58 @@
   release: true
   docs: 
     - name: 云巴 iOS 消息推送
-      markdown: iOS_KB_iOSPush.md
-      url: iOS_KB_iOSPush
+      markdown: ios_kb_ios_push.md
+      url: ios_kb_ios_push
       show: true
       release: true
     - name: iOS SDK 快速入门
-      markdown: iOS_SDK_QuickStart.md
-      url: iOS_SDK_QuickStart
+      markdown: ios_sdk_quick_start.md
+      url: ios_sdk_quick_start
       show: true
       release: true
     - name: iOS SDK API 手册
-      markdown: iOS_SDK_APIManual.md
-      url: iOS_SDK_APIManual
+      markdown: ios_sdk_api_manual.md
+      url: ios_sdk_api_manual
       show: true
       release: true
     - name: 运行 Yunba iOS Demo
-      markdown: iOS_Demo_QuickStart.md
-      url: iOS_Demo_QuickStart
+      markdown: ios_demo_quick_start.md
+      url: ios_demo_quick_start
       show: true 
       release: true
     - name: 如何通过云巴实现 APNs 推送
-      markdown: iOS_KB_APNsImplementation.md
-      url: iOS_KB_APNsImplementation
+      markdown: ios_kb_apns_implementation.md
+      url: ios_kb_apns_implementation
       show: true 
       release: true
     - name: 生成 APNs 证书的步骤
-      markdown: iOS_KB_CreateAPNsCertificate.md
-      url: iOS_KB_CreateAPNsCertificate
+      markdown: ios_kb_create_apns_certificate.md
+      url: ios_kb_create_apns_certificate
       show: true 
       release: true
     - name: 新建 App ID 的步骤
-      markdown: iOS_KB_CreateAppID.md
-      url: iOS_KB_CreateAppID
+      markdown: ios_kb_create_app_id.md
+      url: ios_kb_create_app_id
       show: true 
       release: true
     - name: 新建 CSR 文件的步骤
-      markdown: iOS_KB_CreateCSRfile.md
-      url: iOS_KB_CreateCSRfile
+      markdown: ios_kb_create_csr_file.md
+      url: ios_kb_create_csr_file
       show: true 
       release: true
     - name: 生成 Provisioning Profile
-      markdown: iOS_KB_CreateProvisioningProfile.md
-      url: iOS_KB_CreateProvisioningProfile
+      markdown: ios_kb_create_provisioning_profile.md
+      url: ios_kb_create_provisioning_profile
       show: true 
       release: true
     - name: APNs 推送的 Payload 介绍
-      markdown: iOS_KB_Payload.md
-      url: iOS_KB_Payload
+      markdown: ios_kb_payload.md
+      url: ios_kb_payload
       show: true
       release: true
     - name: 多证书
-      markdown: iOS_KB_MultipleCertificates.md
-      url: iOS_KB_MultipleCertificates
+      markdown: ios_kb_multiple_certificates.md
+      url: ios_kb_multiple_certificates
       show: true
       release: true
 
@@ -155,18 +155,18 @@
   release: true
   docs: 
     - name: JavaScript SDK 快速入门
-      markdown: JS_SDK_QuickStart.md
-      url: JS_SDK_QuickStart
+      markdown: js_sdk_quick_start.md
+      url: js_sdk_quick_start
       show: true
       release: true
     - name: JavaScript SDK API 手册
-      markdown: JS_SDK_APIManual.md
-      url: JS_SDK_APIManual
+      markdown: js_sdk_api_manual.md
+      url: js_sdk_api_manual
       show: true
       release: true
     - name: 运行 Yunba JavaScript Demo
-      markdown: JS_Demo_QuickStart.md
-      url: JS_Demo_QuickStart
+      markdown: js_demo_quick_start.md
+      url: js_demo_quick_start
       show: true 
       release: true
 
@@ -176,23 +176,23 @@
   release: true
   docs: 
     - name: 快速入门
-      markdown: C_SDK_QuickStart.md
-      url: C_SDK_QuickStart
+      markdown: c_sdk_quick_start.md
+      url: c_sdk_quick_start
       show: true
       release: true
     - name: C SDK API 手册
-      markdown: C_SDK_APIManual.md
-      url: C_SDK_APIManual
+      markdown: c_sdk_api_manual.md
+      url: c_sdk_api_manual
       show: true
       release: true
     - name: Embedded C API 手册
-      markdown: EmbeddedC_SDK_APIManual.md
-      url: EmbeddedC_SDK_APIManual
+      markdown: Embeddedc_sdk_api_manual.md
+      url: Embeddedc_sdk_api_manual
       show: true
       release: true
     - name: 运行 Yunba C Demo
-      markdown: C_Demo_QuickStart.md
-      url: C_Demo_QuickStart
+      markdown: c_demo_quick_start.md
+      url: c_demo_quick_start
       show: true 
       release: true
 
@@ -202,8 +202,8 @@
   release: true
   docs: 
     - name: API 手册
-      markdown: RESTful_API_APIManual.md
-      url: RESTful_API_APIManual
+      markdown: restful_api_api_manual.md
+      url: restful_api_api_manual
       show: true
       release: true
 
@@ -213,18 +213,18 @@
   release: true
   docs: 
     - name: API 手册
-      markdown: SocketIO_API_APIManual.md
-      url: SocketIO_API_APIManual
+      markdown: socketio_api_api_manual.md
+      url: socketio_api_api_manual
       show: true
       release: true
     - name: 运行 Yunba Socket.IO Python Demo
-      markdown: SocketIOPython_Demo_QuickStart.md
-      url: SocketIOPython_Demo_QuickStart
+      markdown: socketiopython_demo_quick_start.md
+      url: socketiopython_demo_quick_start
       show: true 
       release: true
     - name: 运行 Yunba Socket.IO Java Demo
-      markdown: SocketIOJava_Demo_QuickStart.md
-      url: SocketIOJava_Demo_QuickStart
+      markdown: SocketIOjava_demo_quick_start.md
+      url: SocketIOjava_demo_quick_start
       show: true 
       release: true
 - name: C Sharp
@@ -232,8 +232,8 @@
   release: true
   docs: 
     - name: 运行 Yunba C Sharp Demo
-      markdown: CSharp_Demo_QuickStart.md
-      url: CSharp_Demo_QuickStart
+      markdown: csharp_demo_quick_start.md
+      url: csharp_demo_quick_start
       show: true 
       release: true
 - name: Java
@@ -241,13 +241,13 @@
   release: true
   docs: 
     - name: API 手册
-      markdown: JS_SDK_APIManual.md
-      url: JS_SDK_APIManual
+      markdown: js_sdk_api_manual.md
+      url: js_sdk_api_manual
       show: true
       release: true
     - name: 运行 Yunba Java Demo
-      markdown: JS_Demo_QuickStart.md
-      url: JS_Demo_QuickStart
+      markdown: js_demo_quick_start.md
+      url: js_demo_quick_start
       show: true 
       release: true
 - name: PHP(Cli)
@@ -255,7 +255,7 @@
   release: true
   docs: 
     - name: 运行 Yunba PHP Demo
-      markdown: PHP_Demo_QuickStart.md
-      url: PHP_Demo_QuickStart
+      markdown: php_demo_quick_start.md
+      url: php_demo_quick_start
       show: true 
       release: true

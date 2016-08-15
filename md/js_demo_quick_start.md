@@ -28,7 +28,7 @@
 ```
 ###3. 运行 Demo
 
-examples 目录下有两个html文件：yunba_javascript_demo.html 和 yunba_javascript_demo_customid.html，差别在于连接消息服务器时，使用的是“connect”，还是“connect_by_customid”。推荐使用后者，使用特定的会话ID进行连接，可确保连接后的会话状态与上次连接一致（包括离线消息、已订阅的频道和别名）。
+examples 目录下有两个html文件：yunba_javascript_demo.html 和 yunba_javascript_demo_customid.html，差别在于连接消息服务器时，使用的是“connect”，还是“connect_by_customid”。推荐使用后者，使用同样的会话ID进行连接，可确保登录信息与上次连接一致（包括离线消息、之前已订阅的频道和别名）。
 
 双击打开 yunba_javascript_demo_customid.html 后，浏览器会先弹出一个消息框，提示输入自定义 ID。如下图所示，在界面右上方输入 ID，点击“Connect”即可。订阅“news”后，即可收到“news”频道下的消息。见下图标记处的第一行内容。
 
