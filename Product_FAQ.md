@@ -44,7 +44,7 @@
 ---
 **问： 云巴能用在 Web 上吗？**
 
-答： 可以。云巴支持 Socket.IO 协议。请参考官网上的 [Socket.IO API](SocketIO_API_APIManual.md)、[RESTful API](RESTful_API_APIManual.md) 及 [JavaScript SDK](JS_SDK_QuickStart.md) 文档。
+答： 可以。云巴支持 Socket.IO 协议。请参考官网上的 [Socket.IO API](socketio_api_api_manual.md)、[RESTful API](restful_api_api_manual.md) 及 [JavaScript SDK](js_sdk_quick_start.md) 文档。
 
 ---
 **问： 云巴系统可以用来发短信吗？**
@@ -71,23 +71,23 @@
 ## 基础问题
 
 
-**问： [什么是云巴 Portal？如何在云巴 Portal 上创建新应用？](Product_KB_Portal.md)**
+**问： [什么是云巴 Portal？如何在云巴 Portal 上创建新应用？](product_kb_portal.md)**
 
 ---
-**问： [什么是 AppKey？](Product_KB_AppKey.md)**
+**问： [什么是 AppKey？](product_kb_app_key.md)**
 
 ---
 
 ## 消息推送、实时消息
 
 
-**问： [云巴 iOS 消息推送是怎样的？](iOS_KB_iOSPush.md)**
+**问： [云巴 iOS 消息推送是怎样的？](ios_kb_ios_push.md)**
 
 ---
-**问： [如何通过云巴实现 APNs 推送？](iOS_KB_APNsImplementation.md)**
+**问： [如何通过云巴实现 APNs 推送？](ios_kb_apns_implementation.md)**
 
 ---
-**问： [云巴 Android 消息推送是怎样的？](Android_KB_AndroidPush.md)**
+**问： [云巴 Android 消息推送是怎样的？](android_kb_android_push.md)**
 
 ---
 **问： 和其他公司相比，云巴的消息推送有什么不同？**
@@ -95,13 +95,13 @@
 答： 云巴支持双向推送，一个客户端既可以 Publish 也可以 Subscribe。而其他家的单向推送只能执行 Subscribe，在执行 Publish 时，还需要提供新的接口。
 
 ---
-**问： [云巴支持的 频道 和 别名 两种发布方式，具体是怎样的？](Product_KB_TopicAndAlias.md)**
+**问： [云巴支持的 频道 和 别名 两种发布方式，具体是怎样的？](product_kb_topic_and_alias.md)**
 
 ---
-**问： [如何实时获取用户（设备）的在线状态？](Product_KB_Presence.md)**
+**问： [如何实时获取用户（设备）的在线状态？](product_kb_presence.md)**
 
 ---
-**问： [云巴的离线消息是怎样的？](Product_KB_OfflineMessage.md)**
+**问： [云巴的离线消息是怎样的？](product_kb_offline_message.md)**
 
 ---
 **问： 云巴的消息送达率是多少？**
@@ -141,7 +141,7 @@
 ---
 **问： 发送方怎样知道接收方收到了？**
 
-答： 服务器收到第一条 PUBACK 时，会给发送方发一个 [RECVACK](SocketIO_API_APIManual.md#recvack)。
+答： 服务器收到第一条 PUBACK 时，会给发送方发一个 [RECVACK](socketio_api_api_manual.md#recvack)。
 
 ---
 **问： 发布的消息可以撤回吗？**
@@ -191,7 +191,7 @@
 ---
 **问： 云巴可以定点推送给某个设备吗？**
 
-答： 可以，请参考 [别名](Product_KB_TopicAndAlias.md)（alias）的相关文档。
+答： 可以，请参考 [别名](product_kb_topic_and_alias.md)（alias）的相关文档。
 
 ---
 **问： 推送的消息出现乱码是什么原因？**
@@ -229,8 +229,8 @@ AppKey，即可互相通讯。
 
 答： 
 * 需要生成 APNs 证书；
-* 在 App 注册 remoteNotification 通知，获取 Device Token，并通过[`storeDeviceToken()`](iOS_SDK_APIManual.md#storeDeviceToken)函数保存 Device Token 到云巴服务端；
-* 通过带有 ApnOption 的`publish2()`、`publish2ToAlias()`或者默认的`publish()`、`publishToAlias()`发送 APNs 消息，该参数设置详见云巴知识库的 [Payload](iOS_KB_Payload.md) 一文，以及 [iOS 官方文档](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)。
+* 在 App 注册 remoteNotification 通知，获取 Device Token，并通过[`storeDeviceToken()`](ios_sdk_api_manual.md#storeDeviceToken)函数保存 Device Token 到云巴服务端；
+* 通过带有 ApnOption 的`publish2()`、`publish2ToAlias()`或者默认的`publish()`、`publishToAlias()`发送 APNs 消息，该参数设置详见云巴知识库的 [Payload](ios_kb_payload.md) 一文，以及 [iOS 官方文档](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)。
 
 **注**：`publish2()`需要带有 ApnOption 参数才能成功发送 APNs 消息；而`publish()`会发送默认的 APNs 消息。
 
@@ -245,7 +245,7 @@ AppKey，即可互相通讯。
 答： 可在`publish2ToAlias()`、`publish2()`的 ApnOption 参数设置消息通知的方式。
 alert 设置消息通知栏的内容；badge 设置角标；sound 设置通知的铃声。
 
-具体参考云巴知识库的 [Payload](iOS_KB_Payload.md) 一文，以及 [iOS 官方文档](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)，或参考 [iOS demo](http://yunba.io/developers/) 中有关 ApnOption 的设置方法。
+具体参考云巴知识库的 [Payload](ios_kb_payload.md) 一文，以及 [iOS 官方文档](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)，或参考 [iOS demo](http://yunba.io/developers/) 中有关 ApnOption 的设置方法。
 
 ---
 **问： 如何自定义 iOS 推送的铃声？**
@@ -276,7 +276,7 @@ alert 设置消息通知栏的内容；badge 设置角标；sound 设置通知�
 **问： iOS SDK`subscribe()`的 qosLevel 参数，和 YBPublish2Option 的 qos 这两个参数有什么区别？**
 
 答：`subscribe()`的 qos Level 限制该话题下接收到 message 的最大 qos 等级。 例如：当设置`subscribe()`的 qosLevel 为 0，则 qos 为 1 的接收消息会降级到 qos 为 0。详见 [MQTT V3.1 Protocol Specification
-]( http://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqtt-v3r1.html#subscribe) 和 [QoS](Product_KB_QoS.md) 的说明。
+]( http://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqtt-v3r1.html#subscribe) 和 [QoS](product_kb_qos.md) 的说明。
 
 ---
 **问： iOS 端怎么设置不接收任何消息？**
@@ -291,7 +291,7 @@ alert 设置消息通知栏的内容；badge 设置角标；sound 设置通知�
 ---
 **问： iOS 端如何设置通知方式？**
 
-答： 上传 APNs 证书；通过 YBPublish2Option 参数的 alert 设置通知栏内容、角标和声音等，具体参考 sdk 中关于[`pushlish2()`](iOS_SDK_APIManual.md#publish2)的介绍，也可以下载并参考 [iOS demo](http://yunba.io/developers/) 中 YBPublish2Option 的设置。
+答： 上传 APNs 证书；通过 YBPublish2Option 参数的 alert 设置通知栏内容、角标和声音等，具体参考 sdk 中关于[`pushlish2()`](ios_sdk_api_manual.md#publish2)的介绍，也可以下载并参考 [iOS demo](http://yunba.io/developers/) 中 YBPublish2Option 的设置。
 
 完整的设置方法请参考 [iOS 官方文档](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)。
 
@@ -311,13 +311,13 @@ Android 端的解决方法：增加相互拉起功能和后台守护进程，使
 
 答：`publish2()`、`publish2ToAlias()`的 opts(JSONObject) 参数可以设置 qos。
 
-附：qos 为服务质量等级。有三种取值：0 表示最多送达一次；1 表示最少送达一次；2 表示保证送达且仅送达一次。默认为 1。详见 [QoS](Product_KB_QoS.md) 的说明。
+附：qos 为服务质量等级。有三种取值：0 表示最多送达一次；1 表示最少送达一次；2 表示保证送达且仅送达一次。默认为 1。详见 [QoS](product_kb_qos.md) 的说明。
 
 ---
 **问： Android 端怎么设置离线消息时间？**
 
 答： 设置`publish2()`、`publish2ToAlias()`的 opts（JSONObject） 参数；
-qos 设置为 1 或 2，就能够保证离线消息的送达；设置 time_to_live，可以控制离线消息在云巴服务器上保留的时间（以秒为单位）。详见：[云巴的离线消息](Product_KB_OfflineMessage.md) 。
+qos 设置为 1 或 2，就能够保证离线消息的送达；设置 time_to_live，可以控制离线消息在云巴服务器上保留的时间（以秒为单位）。详见：[云巴的离线消息](product_kb_offline_message.md) 。
 
 ---
 **问： YunBa Android SDK 有没有设置通知栏的 API？**
@@ -334,7 +334,7 @@ qos 设置为 1 或 2，就能够保证离线消息的送达；设置 time_to_li
 ---
 **问： Android 端如何断开连接，不接收消息？**
 
-答： 可以调用[`stop()`](Android_SDK_APIManual.md#stop)停止推送服务，使所有的 API 都失效（包括 start API）；当需要重新使用推送服务时，必须要调用[`resume ()`](Android_SDK_APIManual.md#resume)。
+答： 可以调用[`stop()`](android_sdk_api_manual.md#stop)停止推送服务，使所有的 API 都失效（包括 start API）；当需要重新使用推送服务时，必须要调用[`resume ()`](android_sdk_api_manual.md#resume)。
 
 ---
 
@@ -386,12 +386,12 @@ IE7 以下版本需 [配置](https://github.com/yunba/yunba-javascript-sdk) 即�
 
 **问： RESTful 如何设置离线消息保留时间？**
 
-答： "opts" 设置 "qos" 值为 1 或 2，才能成功发送离线消息；设置 "time_to_live" 参数指定离线消息的保留时间，默认是5天，详见： [云巴的离线消息](Product_KB_OfflineMessage.md) 和 [RESTful API 的示例](RESTful_API_APIManual.md#HTTPPOST)。
+答： "opts" 设置 "qos" 值为 1 或 2，才能成功发送离线消息；设置 "time_to_live" 参数指定离线消息的保留时间，默认是5天，详见： [云巴的离线消息](product_kb_offline_message.md) 和 [RESTful API 的示例](restful_api_api_manual.md#HTTPPOST)。
 
 ---
 **问： 加 opts 参数之后，可以用 get 请求吗？**
 
-答： GET 方法不支持复杂参数，只是用来做简单测试；可以用 POST 方法，具体参考 [官方文档](RESTful_API_APIManual.md#HTTPPOST)。同时注意请求头的设置： Content-type: application/json。
+答： GET 方法不支持复杂参数，只是用来做简单测试；可以用 POST 方法，具体参考 [官方文档](restful_api_api_manual.md#HTTPPOST)。同时注意请求头的设置： Content-type: application/json。
 
 ---
 **问： RESTful API 可以指定 Message ID 吗？**
@@ -418,7 +418,7 @@ IE7 以下版本需 [配置](https://github.com/yunba/yunba-javascript-sdk) 即�
 
 答： 不需要。 
 
-**注**：apn_json 参数只针对 iOS 平台的 APNs 消息。具体参考 [官方文档](RESTful_API_APIManual.md#HTTPPOST)，apn_json 参数的完整设置方法可参考 [iOS 官方文档](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)。
+**注**：apn_json 参数只针对 iOS 平台的 APNs 消息。具体参考 [官方文档](restful_api_api_manual.md#HTTPPOST)，apn_json 参数的完整设置方法可参考 [iOS 官方文档](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)。
 
 ---
 
