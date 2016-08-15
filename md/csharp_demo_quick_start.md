@@ -30,36 +30,36 @@
 解压下载的 Zip 文件，在 Visual Studio 2013 中打开 "MqttDotNet.sln" 工程。如图：
 
 
-![csharp_MqttDotNet.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/csharp_MqttDotNet.png)
+![csharppng_demo_mqtt_dot_net.png](https://raw.githubusercontent.com/yunba/docs/master/image/csharppng_demo_mqtt_dot_net.png)
 
 
 右击 Sample 工程，选择“设为启动项目”。
 
 
-![csharp_select_ project.png](https://github.com/yunba/docs/blob/master/image/for_quickstart/csharp_select_%20project.png)
+![csharppng_demo_select_project.png](https://github.com/yunba/docs/blob/master/image/csharp_select_%20project.png)
 
 
 ### 3. 运行程序
 运行程序，会生成 "\yunba-csharp-sdk-master\Sample\bin\Debug" 路径下的 "Sample.exe"。
 在控制台进入该路径，启动 "Sample.exe" ，同时输入 AppKey，如图: 
 
-![csharp_run_the_ project.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/csharp_run_the_%20project.png)
+![csharppng_demo_run_project.png](https://raw.githubusercontent.com/yunba/docs/master/image/csharp_run_the_%20project.png)
 
 连接成功之后会显示 "Client connected",可以按任意键继续往下执行。如图:
 
-![csharp_client_connected.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/csharp_client_connected.png)
+![csharppng_demo_connected.png](https://raw.githubusercontent.com/yunba/docs/master/image/csharppng_demo_connected.png)
 
 按任意键之后将出现如下提示:
 
-![csharp_enter _common_id.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/csharp_enter%20_common_id.png)
+![csharppng_demo_enter_commonId.png](https://raw.githubusercontent.com/yunba/docs/master/image/csharp_enter%20_common_id.png)
 
 可以先订阅话题 `subscribe()` :
 
-![csharp_subscribe.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/csharp_subscribe.png)
+![csharppng_demo_subscribe.png](https://raw.githubusercontent.com/yunba/docs/master/image/csharppng_demo_subscribe.png)
 
 再发布消息 `publish()`。发布成功后，使用同一 AppKey 并且已订阅该 Topic 的其它客户端将收到消息。使用同一个 AppKey 的客户端在该 Topic 下发布的消息，C# 端也将收到。
 
-![csharp_publishMessage.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/csharp_publishMessage.png)
+![csharppng_demo_publish_message.png](https://raw.githubusercontent.com/yunba/docs/master/image/csharppng_demo_publish_message.png)
 
 
 详细的程序逻辑，请参考项目源程序。

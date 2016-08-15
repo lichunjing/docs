@@ -32,7 +32,7 @@ examples 目录下有两个html文件：yunba_javascript_demo.html 和 yunba_jav
 
 双击打开 yunba_javascript_demo_customid.html 后，浏览器会先弹出一个消息框，提示输入自定义 ID。如下图所示，在界面右上方输入 ID，点击“Connect”即可。订阅“news”后，即可收到“news”频道下的消息。见下图标记处的第一行内容。
 
-![javascript_recv_msg.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/javascript_recv_msg.png)
+![jspng_demo_receive_message.png](https://raw.githubusercontent.com/yunba/docs/master/image/jspng_demo_receive_message.png)
 
 可通过 Set Alias 设置自己的别名。例如，设置别名为“Jack”，见下图。设置成功后，即可收到发给该别名的消息。
 
@@ -40,12 +40,12 @@ examples 目录下有两个html文件：yunba_javascript_demo.html 和 yunba_jav
 图中靠下方的位置展示的是查询某个用户的订阅列表和在线状态，以及某个频道下所有的用户别名。其返回的结果可参考上图中标记处的后三行。
 
 
-![javascript_set_alias.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/javascript_set_alias.png)
+![jspng_demo_set_alias.png](https://raw.githubusercontent.com/yunba/docs/master/image/jspng_demo_set_alias.png)
 
 此外，还可以通过 subscribe_presence 来监听收听了“news”的所有用户的别名状态的变化。见下图。
-![javascript_sub_presence.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/javascript_sub_presence.png)
+![jspng_demo_subscribe_presence.png](https://raw.githubusercontent.com/yunba/docs/master/image/jspng_demo_subscribe_presence.png)
 
 
 发布消息的界面如下，可按频道发布，或按别名发布：
 
-![javascript_pub.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/javascript_pub.png)
+![jspng_demo_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/jspng_demo_publish.png)

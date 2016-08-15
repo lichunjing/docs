@@ -144,7 +144,7 @@ def on_set_alias(args):
 
 
     socketIO.emit('get_alias')
-    socketIO.emit('publish_to_alias', {'alias': 'mytestalias1', 'msg': "hello to alias"})
+    socketIO.emit('productpng_kb_publish2alias', {'alias': 'mytestalias1', 'msg': "hello to alias"})
     socketIO.emit('get_topic_list', {'alias': 'mytestalias1'})
     socketIO.emit('get_state', {'alias': 'mytestalias1'})
 
@@ -195,7 +195,7 @@ socketIO.wait()
 为了收到 python_demo 发来的消息，需在 Android Demo 端订阅“testtopic2”、“t2thi”，
 并将别名设置为 “alias_mqttc_sub”，如图所示：
 
-![socketio_client_setting.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/socketio_client_setting.png)
+![socketiopng_demo_setting.png](https://raw.githubusercontent.com/yunba/docs/master/image/socketiopng_demo_setting.png)
 
 准备好后，开始运行 Python 的 Demo。在 Mac Terminal 中，激活虚拟环境。假设 Python 文件就在当前路径下，在虚拟环境下，运行 python_demo.py，如下：
 
@@ -205,17 +205,17 @@ socketIO.wait()
 
 运行成功后，会在 Terminal 中打印出执行的信息。而 Android Demo 端，也可以收到消息，如下：
 
-![socketio_client_recv.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/socketio_client_recv.png)
+![socketiopng_demo_client_receive.png](https://raw.githubusercontent.com/yunba/docs/master/image/socketiopng_demo_client_receive.png)
 
 同样地，可以通过 Android Demo 的 MAIN 标签页下的“Msg to publish”项向 python_demo 订阅的频道发送消息。
 另外，在代码中可以看到，python_demo 的别名已设置为“mytestalias1”。
 可以通过 Android Demo 的 API 标签页下的 “Msg to Alias” 项发送一对一消息给 python_demo。
 发送和接收的截图如下：
 
-![socketio_to_topic.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/socketio_to_topic.png)
+![socketiopng_demo_publish2_topic.png](https://raw.githubusercontent.com/yunba/docs/master/image/socketiopng_demo_publish2_topic.png)
 
-![socketio_to_alias.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/socketio_to_alias.png)
+![socketiopng_demo_publish2_alias.png](https://raw.githubusercontent.com/yunba/docs/master/image/socketiopng_demo_publish2_alias.png)
 
-![socketio_term_recv.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/socketio_term_recv.png)
+![socketiopng_demo_term_receive.png](https://raw.githubusercontent.com/yunba/docs/master/image/socketiopng_demo_term_receive.png)
 
 更多用法和功能，请参考 [Socket.IO API 手册](socketio_api_api_manual.md)。

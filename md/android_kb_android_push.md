@@ -2,7 +2,7 @@
 
 如下图所示，客户端集成了云巴的 Android SDK，服务端可通过云巴的 SDK 或使用 RESTful API，向 Android 客户端发消息。
 
-![Android_push.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_kb/Android_push.png)
+![androidpng_kb_push_message.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_kb_push_message.png)
 
 * 后台保持长连接
 

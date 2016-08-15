@@ -24,21 +24,21 @@ iOS Demo 程序会用到 APNs，因此，在运行之前，请先参考 [生成 
 
 打开 [云巴官方网站](http://yunba.io)，登录，点击 我的应用 --> 创建新应用。
 
-![create_app.png](https://raw.githubusercontent.com/yunba/docs/master/image/create_app.png)
+![productpng_portal_creat_app.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_creat_app.png)
 
 输入应用的名称及 Bundle ID。
 
-![tutorials_push_notification_iOS_create_new_app.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_tutorials/tutorials_push_notification_iOS_create_new_app.png)
+![productpng_portal_creat_new_app.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_creat_new_app.png)
 
 同时，上传上一个步骤中生成的 iOS 开发或生产证书，并输入导出证书时所设置的证书密码（如证书导出时未设置密码，则留空即可）。如果您的同一个应用分为不同的版本，您也可以添加 “[多个证书](ios_kb_multiple_certificates.md)”。
 
-![ios_create_new_app.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/ios_add_cert_to_portal.png)
+![ios_create_new_app.png](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_portal_add_certificate.png)
 
 应用信息填好以后，点击页面下方的“创建应用”按钮，会来到“应用详情”页面。这里可以看到从 [Portal](product_kb_portal.md) 申请到的 [AppKey](product_kb_app_key.md)、Secret Key 等。
 
 **注**：请妥善保管好您的 AppKey、Secret Key 等，不要泄露给他人。
 
-![copy_app_key.png](https://raw.githubusercontent.com/yunba/docs/master/image/copy_app_key.png)
+![productpng_portal_copy_app_key.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_copy_app_key.png)
 
 ###3. 生成 Provisioning Profile
 请参考 [生成 Provisioning Profile](ios_kb_create_provisioning_profile.md) 一文，生成 Provisioning Profile，并导入到 Xcode 中。
@@ -49,7 +49,7 @@ iOS Demo 程序会用到 APNs，因此，在运行之前，请先参考 [生成 
 
 在 Xcode 中打开 Yunba iOS SDK 中的 Demo 工程“YunBaDemo”。
 
-![ios_xcode.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/ios_xcode.png)
+![iospng_demo_file_list.png](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_demo_file_list.png)
 
 **4.2. 替换代码中的 AppKey**
 
@@ -62,13 +62,13 @@ iOS SDK Demo 的代码已经实现了订阅、接收等逻辑，您无需添加�
 
 在 Xcode 的 General --> Identity 页面，修改 Bundle Identifier 的值，如图所示：
 
-![ios_xcode_identity.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/ios_xcode_identity.png)
+![iospng_demo_file_list_identity.png](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_demo_file_list_identity.png)
 
 **4.4. 配置 Code Signing**
 
 在 Xcode 的 Build Setting --> Code Signing 页面，Code Signing Identity 选择 Automatic，Provisioning Profile 选择之前在步骤 3 中双击导入的 Provisioning Profile。
 
-![ios_xcode_code_sign.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/ios_xcode_code_sign.png)
+![iospng_demo_code_sign.png](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_demo_code_sign.png)
 
 **4.5. 编译**
 
@@ -85,7 +85,7 @@ App 在真机上运行起来后，可以通过左右拨动，切换到不同的�
 
 **其中，在 Demo App 内，向右拨动至最后一页，打开 Enable APNs 的开关，才能收到 APNs 的消息。**
 
-![ios_enable_apns.PNG](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/ios_enable_apns.PNG)
+![iospng_demo_enable_apns.PNG](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_demo_enable_apns.PNG)
 
 
 ###5. 订阅和发布
@@ -98,13 +98,13 @@ App 在真机上运行起来后，可以通过左右拨动，切换到不同的�
 
 在 Portal 上发送消息：
 
-![tutorials_push_notification_iOS_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_tutorials/tutorials_push_notification_iOS_publish.png)
+![productpng_portal_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish.png)
 
 
 App 在前台运行时会收到内部消息：
 
-![ios_new_msg.PNG](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/ios_new_msg.PNG)
+![iospng_demo_new_message.PNG](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_demo_new_message.PNG)
 
 
 App 在后台运行时会收到推送通知：
-![ios_bg_msg.PNG](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/ios_bg_msg.PNG)
+![iospng_demo_bar_message.PNG](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_demo_bar_message.PNG)

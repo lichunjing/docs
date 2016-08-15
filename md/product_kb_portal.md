@@ -16,21 +16,21 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 - 对于 iOS 应用，在 “iOS 开发/生产证书” 处上传 iOS 开发/生产证书（*.p12）。如果证书导出时有设置密码，需要在 “开发/生产证书密码” 项填上证书的密码。
 - 创建完成后，查看 “应用信息” 页面，可以看到应用的 AppKey、Secret Key 等。**请妥善保管好您的 AppKey、Secret Key 等应用信息，不要在群聊等公众场合下泄露。**
 
-![tutorials_push_notification_iOS_create_new_app.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_tutorials/tutorials_push_notification_iOS_create_new_app.png)
+![productpng_portal_creat_new_app.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_creat_new_app.png)
 
 
 ## 利用云巴 Portal 发布消息
 客户端集成 YunBa SDK 后，打开 Portal 上应用详情页面，可以向客户端 `subscribe` 的 [频道](product_kb_topic_and_alias.md)（Topic）发布消息，客户端即可收到消息，如图所示:
 
-![tutorials_push_notification_iOS_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_tutorials/tutorials_push_notification_iOS_publish.png)
+![productpng_portal_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish.png)
 
 在客户端（以 Android 客户端为例）订阅频道：
 
-![android_emu_appmsg.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/android_emu_appmsg.png)
+![androidpng_demo_app_message.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_demo_app_message.png)
 
 客户端收到 Portal 发布的消息：
 
-![android_emu_pushmsg.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/android_emu_pushmsg.png)
+![androidpng_demo_notification.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_demo_notification.png)
 
 ### Publish2 发布消息
 
@@ -38,7 +38,7 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 - 点击 **更多选项** 可设置 [离线消息](product_kb_offline_message.md) 保留时间（Time To Live）、[QoS](product_kb_qos.md) 值 和 Message ID（如果不填则由系统自动生成）
 - 可设置 **APN JSON** 发送 APNs 消息，发送 APNs 消息的方法具体可参考 [如何通过云巴实现 APNs 推送](ios_kb_apns_implementation.md) 和 [APNs 参数设置](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)。
 
-![publish2.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_kb/Portal_publish2.png)
+![productpng_portal_publish2_usage.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish2_usage.png)
 
 ### 查看 Portal 上发布的历史消息
 
@@ -47,7 +47,7 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 
 ## 云巴 Portal 的发布上报统计
 
-![report.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/publish_statistic.png)
+![report.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_statistic.png)
 
 如图所示，可查看该应用（[AppKey](product_kb_app_key.md)） 下的消息发布和送达情况。
 
@@ -55,7 +55,7 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 
 ## 云巴 Portal 的在线用户统计
 
-![online.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/online_statistic.png)
+![online.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_online_statistic.png)
 
 - 一段时间内的在线用户数：该时间段内持续在线（connected）的用户数量。如：“在线用户数/小时” 的单位表示该小时内持续在线，未断开与云巴的长连接的用户数量。
 - 一段时间内的活跃用户数：该时间段内进行过上线操作的用户数量（不一定持续在线）。如：“活跃用户数/小时” 的单位表示该小时内进行过上线操作，即连接过云巴服务的用户数量。

@@ -363,7 +363,7 @@ cb    | Function | 参数可选。不管消息发布是成功或失败都会回�
 
 ### 扩展参数说明
 
-`publish2()`与`publish2_to_alias()`的扩展参数都是可选项。如果不填写参数，则`publish2()`/`publish2_to_alias()`的行为与`publish()`/`publish_to_alias()`相似，只有一点不同：`publish()`/`publish_to_alias()`会发送默认的 APN，而`publish2()`/`publish2_to_alias()`如果不填写 apn_json，则不会发送 APN。
+`publish2()`与`publish2_to_alias()`的扩展参数都是可选项。如果不填写参数，则`publish2()`/`publish2_to_alias()`的行为与`publish()`/`productpng_kb_publish2alias()`相似，只有一点不同：`publish()`/`productpng_kb_publish2alias()`会发送默认的 APN，而`publish2()`/`publish2_to_alias()`如果不填写 apn_json，则不会发送 APN。
 
 名称 | 类型 | 说明
 --------- | ------- | -----------
@@ -390,7 +390,7 @@ yunba.publish2({
 }, cb)
 ```
 
-## publish_to_alias
+## productpng_kb_publish2alias
 
 ### 功能
 
@@ -402,7 +402,7 @@ yunba.publish2({
 ### 基本使用
 
 ```javascript
-yunba.publish_to_alias(obj, cb)
+yunba.productpng_kb_publish2alias(obj, cb)
 ```
 
 ### 参数说明
@@ -416,7 +416,7 @@ cb    | Function | 参数可选。不管消息发布是否成功或失败都会�
 ### 代码示例
 
 ```javascript
-yunba.publish_to_alias({
+yunba.productpng_kb_publish2alias({
     'alias': 'my_alias',
     'msg': 'test_message', 
     'messageId': 199900724, 
@@ -433,7 +433,7 @@ yunba.publish_to_alias({
 
 ### 功能
 
-`publish_to_alias()`的升级版本，支持更多参数。
+`productpng_kb_publish2alias()`的升级版本，支持更多参数。
 
 **注**：接收方需要先通过`setAlias()`设置 [别名](product_kb_topic_and_alias.md)。
 
@@ -454,7 +454,7 @@ cb    | Function | 参数可选。不管消息发布是否成功或失败都会�
 
 ### 扩展参数说明
 
-`publish2()`与`publish2_to_alias()`的扩展参数都是可选项。如果不填写参数，则`publish2()`/`publish2_to_alias()`的行为与`publish()`/`publish_to_alias()`相似，只有一点不同：`publish()`/`publish_to_alias()`会发送默认的 APN，而`publish2()`/`publish2_to_alias()`如果不填写 apn_json，则不会发送 APN。
+`publish2()`与`publish2_to_alias()`的扩展参数都是可选项。如果不填写参数，则`publish2()`/`publish2_to_alias()`的行为与`publish()`/`productpng_kb_publish2alias()`相似，只有一点不同：`publish()`/`productpng_kb_publish2alias()`会发送默认的 APN，而`publish2()`/`publish2_to_alias()`如果不填写 apn_json，则不会发送 APN。
 
 名称 | 类型 | 说明
 --------- | ------- | -----------

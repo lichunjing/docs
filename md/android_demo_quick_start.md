@@ -23,7 +23,7 @@ Yunba Android Demo 的应用包名（PackageName）为："io.yunba.example"。
 
 创建完成后，即可得到对应的 AppKey。如图所示：
 
-![android_portal_info.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/android_portal_info.png)
+![productpng_portal_info.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_info.png)
 
 ### 2. 修改 AndroidManifest.xml 文件
 用文本编辑器打开 YunBa-Android-sdk 中的 AndroidManifest.xml 文件，进行如下修改：
@@ -38,13 +38,13 @@ Yunba Android Demo 的应用包名（PackageName）为："io.yunba.example"。
 
 如图所示。
 
-![android_import_prj.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/android_import_prj.png)
+![androidpng_demo_import_project.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_demo_import_project.png)
 
 在弹出的文件树中，找到刚才做过修改的那份 YunBa-Android-sdk，展开后，
 选择 yunba-demo 文件夹，点击 OK 确认，
 并输入目标工程的路径 (Import Destination Directory)，点击 Next、Finish 即可。
 
-![android_select_prj.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/android_select_prj.png)
+![androidpng_demo_select_project.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_demo_select_project.png)
 
 
 引入后，如遇到错误提示："failed to find target with hash string android-15"，
@@ -53,9 +53,9 @@ Yunba Android Demo 的应用包名（PackageName）为："io.yunba.example"。
 
 在 Android Studio 中，可以查看 AndroidManifest 文件，再次确认 PackageName 和 AppKey 已经正确修改了：
 
-![android_manifest_pkg.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/android_manifest_pkg.png)
+![androidpng_sdk_package_and_appkey.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_sdk_package_and_appkey.png)
 
-![android_manifest_pkg_appkey.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/android_manifest_pkg_appkey.png)
+![androidpng_sdk_as_mainfest_package.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_sdk_as_mainfest_package.png)
 
 **注**：之所以先修改 Package Name，再引入 Android Studio 进行编译，
 是因为 Android Studio 不像 Eclipse 那样，只在 Manifest 里面定义 Package Name 等内容。
@@ -67,12 +67,12 @@ Android Demo 中已经包含了相关的处理代码，您无需添加代码即�
 
 在 Android 手机端订阅“news”，然后在 Portal 上发送消息：
 
-![tutorials_push_notification_iOS_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_tutorials/tutorials_push_notification_iOS_publish.png)
+![productpng_portal_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish.png)
 
 
 即可在 Android 手机端订阅收到消息：
 
-![android_emu_appmsg.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/android_emu_appmsg.png)
+![androidpng_demo_app_message.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_demo_app_message.png)
 
-![android_emu_pushmsg.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/android_emu_pushmsg.png)
+![androidpng_demo_notification.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_demo_notification.png)
 
