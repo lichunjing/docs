@@ -399,7 +399,7 @@ IE7 以下版本需 [配置](https://github.com/yunba/yunba-javascript-sdk) 即�
 答： 云巴服务端随机生成 Message ID。
 
 ---
-**问： RESTful的`productpng_kb_publish2alias_batch()`API 中别名 Alias 的最大数量有限制吗？**
+**问： RESTful的`publish_to_alias_batch()`API 中别名 Alias 的最大数量有限制吗？**
 
 答： 别名的数量建议在 1000 以下。
 

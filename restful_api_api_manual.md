@@ -34,7 +34,7 @@ http://rest.yunba.io:8080?method=<method>&appkey=<app-key>&seckey=<secret-key>&t
 可直接在浏览器地址栏中打开 URL，或使用 cURL 命令来执行。其中，method 的详细说明见下文的 HTTP POST 章节。
 
 
-在使用 `productpng_kb_publish2alias` 方法时，请用 alias=<alias> 替换 topic=<topic> 即可。
+在使用 `publish_to_alias` 方法时，请用 alias=<alias> 替换 topic=<topic> 即可。
 
 **示例**
 
@@ -56,7 +56,7 @@ $curl  --request GET "http://rest.yunba.io:8080?method=publish&appkey=XXXXXXXXXX
 **其中，opts 为可选项。如果在 opts 中没有出现 apn_json 项，就不会发送 APN。**
 
 
-同样地，在使用 `productpng_kb_publish2alias` 时，请用 "alias":<alias> 替换 "topic":<topic> 即可。
+同样地，在使用 `publish_to_alias` 时，请用 "alias":<alias> 替换 "topic":<topic> 即可。
 
 ```json
 {
@@ -112,12 +112,12 @@ $curl  --request GET "http://rest.yunba.io:8080?method=publish&appkey=XXXXXXXXXX
 
 目前支持的 method 包括：
 * `publish`
-* `productpng_kb_publish2alias`
-* `productpng_kb_publish2alias_batch`
+* `publish_to_alias`
+* `publish_to_alias_batch`
 * `publish_async`
 * `publish_check`
 
-其中，`publish`、`productpng_kb_publish2alias`、`productpng_kb_publish2alias_batch`和`publish_async`可以带 opts 参数，带上参数后，就相当于 `publish2`、`publish2_to_alias`、`publish2_to_alias_batch`和`publish2_async`。
+其中，`publish`、`publish_to_alias`、`publish_to_alias_batch`和`publish_async`可以带 opts 参数，带上参数后，就相当于 `publish2`、`publish2_to_alias`、`publish2_to_alias_batch`和`publish2_async`。
 
 
 下面逐一介绍这几种 method，并给出示例。
@@ -134,15 +134,15 @@ $curl  --request GET "http://rest.yunba.io:8080?method=publish&appkey=XXXXXXXXXX
 $ curl -l -H "Content-type: application/json" -X POST -d '{"method":"publish", "appkey":"XXXXXXXXXXXXXXXXXXXXXXX", "seckey":"sec-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "topic":"news", "msg":"good news"}' http://rest.yunba.io:8080
 ```
 
-### `productpng_kb_publish2alias`
+### `publish_to_alias`
 
 用于向指定的别名（alias）发送一对一的消息。
 
 ```bash
-$ curl -l -H "Content-type: application/json" -X POST -d '{"method":"productpng_kb_publish2alias", "appkey": "XXXXXXXXXXXXXXXXXXXXXXX", "seckey":"sec-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "alias":"test", "msg":"message from RESTful API", "opts":{"time_to_live":20000}}' http://rest.yunba.io:8080
+$ curl -l -H "Content-type: application/json" -X POST -d '{"method":"publish_to_alias", "appkey": "XXXXXXXXXXXXXXXXXXXXXXX", "seckey":"sec-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "alias":"test", "msg":"message from RESTful API", "opts":{"time_to_live":20000}}' http://rest.yunba.io:8080
 ```
 
-### `productpng_kb_publish2alias_batch`
+### `publish_to_alias_batch`
 
 用于同时向多个指定的别名（alias）发消息。群发的别名数目最好控制在 1000 以下。
 
@@ -150,7 +150,7 @@ $ curl -l -H "Content-type: application/json" -X POST -d '{"method":"productpng_
 例如，我们向别名为 Jack 和 Rose 的客户端同时发送消息。
 
 ```bash
-$ curl -l -H "Content-type: application/json" -X POST -d '{"method":"productpng_kb_publish2alias_batch", "appkey":"XXXXXXXXXXXXXXXXXXXXXXX", "seckey":"sec-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "aliases":["Jack","Rose"], "msg":"good news", "opts":{"time_to_live": 20}}' http://rest.yunba.io:8080
+$ curl -l -H "Content-type: application/json" -X POST -d '{"method":"publish_to_alias_batch", "appkey":"XXXXXXXXXXXXXXXXXXXXXXX", "seckey":"sec-XXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "aliases":["Jack","Rose"], "msg":"good news", "opts":{"time_to_live": 20}}' http://rest.yunba.io:8080
 ```
 
 发送后，返回如下。参考文末的返回状态说明可以看出，给 Jack 的消息发送成功了。但由于该 AppKey 下并不存在别名为 Rose 的客户端，向 Rose 发的消息发送失败了。

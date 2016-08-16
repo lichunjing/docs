@@ -253,13 +253,13 @@ cJSON_Delete(Opt);
 printf("publish2 status:%i\n", ret);
 ```
 
-## MQTTClient_productpng_kb_publish2alias
+## MQTTClient_publish_to_alias
 
 ### 功能
 向某个 [别名](product_kb_topic_and_alias.md) 发布消息。发布成功后，该别名的客户端会收到消息。
 
 ### 函数原型
-`int MQTTClient_productpng_kb_publish2alias(MQTTClient handle, char* alias, int data_len, void* data);`
+`int MQTTClient_publish_to_alias(MQTTClient handle, char* alias, int data_len, void* data);`
 
 ### 参数说明:
 名称 | 类型 | 说明
@@ -274,7 +274,7 @@ data | void* | 消息指针。
 
 ### 代码示例
 ```c
-rc = MQTTClient_productpng_kb_publish2alias(client, "Hello_alias", strlen("test"), "test");
+rc = MQTTClient_publish_to_alias(client, "Hello_alias", strlen("test"), "test");
 ```
 
 

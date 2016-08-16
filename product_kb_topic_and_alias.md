@@ -80,10 +80,10 @@ MQTT 里没有别名的概念。云巴的别名（Alias），是为连接云巴�
 * [`get_alias`](js_sdk_api_manual.md#get_alias) 用来获取当前的别名。
 * [`get_state`](js_sdk_api_manual.md#get_state) 用来查看某个别名的在线状态。
 * [`get_alias_list`](js_sdk_api_manual.md#get_alias_list) 用来获取订阅了某个频道的所有用户的别名。
-* [`productpng_kb_publish2alias`](js_sdk_api_manual.md#productpng_kb_publish2alias) 向用户别名发送消息。
-* [`publish2_to_alias`](js_sdk_api_manual.md#publish2_to_alias) 是 `productpng_kb_publish2alias` 的升级版本，支持更多参数。
+* [`publish_to_alias`](js_sdk_api_manual.md#publish_to_alias) 向用户别名发送消息。
+* [`publish2_to_alias`](js_sdk_api_manual.md#publish2_to_alias) 是 `publish_to_alias` 的升级版本，支持更多参数。
 
 ### 4.应用场景
-在一对一发布的场景中，不同的客户端集成了云巴的 SDK 后，分别通过调用`set_alias`设置自己的别名，就可以用`productpng_kb_publish2alias`互相收发消息，进行点对点的通信。
+在一对一发布的场景中，不同的客户端集成了云巴的 SDK 后，分别通过调用`set_alias`设置自己的别名，就可以用`publish_to_alias`互相收发消息，进行点对点的通信。
 
 

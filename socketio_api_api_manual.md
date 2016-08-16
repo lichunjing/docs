@@ -184,7 +184,7 @@ qos | Number | 服务质量等级。有三种取值：“0”表示最多送达�
 ## puback
 ### 功能
 
-`publish()`、`productpng_kb_publish2alias()`、`publish2()`和`publish2_to_alias()`成功的回调。
+`publish()`、`publish_to_alias()`、`publish2()`和`publish2_to_alias()`成功的回调。
 
 ### 代码示例
 
@@ -261,7 +261,7 @@ socketIO.emit('get_alias')
 alias | String | 用户当前的别名。
 
 
-## productpng_kb_publish2alias
+## publish_to_alias
 
 ### 功能
 向某个 [别名](product_kb_topic_and_alias.md) 发布消息。发布成功后，该别名的客户端会收到消息。
@@ -269,7 +269,7 @@ alias | String | 用户当前的别名。
 ### 代码示例
 
 ```python
-socketIO.emit('productpng_kb_publish2alias', {'alias': 'mytestalias1', 'msg': "hello to alias"})
+socketIO.emit('publish_to_alias', {'alias': 'mytestalias1', 'msg': "hello to alias"})
 ```
 
 ### 参数说明
@@ -383,7 +383,7 @@ opts | Dict | 可选项。参考`publish2()`[扩展参数](#扩展参数说明)�
 
 ### 扩展参数说明
 
-`publish2()`与`publish2_to_alias()`的扩展参数都是可选项。如果不填写参数，则`publish2()`/`publish2_to_alias()`的行为与`publish()`/`productpng_kb_publish2alias()`相似，只有一点不同：`publish()`/`productpng_kb_publish2alias()`会发送默认的 APN，而`publish2()`/`publish2_to_alias()`如果不填写 apn_json，则不会发送 APN。
+`publish2()`与`publish2_to_alias()`的扩展参数都是可选项。如果不填写参数，则`publish2()`/`publish2_to_alias()`的行为与`publish()`/`publish_to_alias()`相似，只有一点不同：`publish()`/`publish_to_alias()`会发送默认的 APN，而`publish2()`/`publish2_to_alias()`如果不填写 apn_json，则不会发送 APN。
 
 名称 | 类型 | 说明
 --------- | ------- | -----------
@@ -395,7 +395,7 @@ time_to_live | Number | 用来设置 [离线消息](product_kb_offline_message.m
 ## publish2_to_alias
 
 ### 功能
-`productpng_kb_publish2alias()`的升级版本，支持更多参数。
+`publish_to_alias()`的升级版本，支持更多参数。
 
 ### 代码示例
 
@@ -414,7 +414,7 @@ opts | Dict | 可选项。参考`publish2_to_alias`[扩展参数](#扩展参数�
 
 ### 扩展参数说明
 
-`publish2()`与`publish2_to_alias()`的扩展参数都是可选项。如果不填写参数，则`publish2()`/`publish2_to_alias()`的行为与`publish()`/`productpng_kb_publish2alias()`相似，只有一点不同：`publish()`/`productpng_kb_publish2alias()`会发送默认的 APN，而`publish2()`/`publish2_to_alias()`如果不填写 apn_json，则不会发送 APN。
+`publish2()`与`publish2_to_alias()`的扩展参数都是可选项。如果不填写参数，则`publish2()`/`publish2_to_alias()`的行为与`publish()`/`publish_to_alias()`相似，只有一点不同：`publish()`/`publish_to_alias()`会发送默认的 APN，而`publish2()`/`publish2_to_alias()`如果不填写 apn_json，则不会发送 APN。
 
 名称 | 类型 | 说明
 --------- | ------- | -----------
@@ -551,7 +551,7 @@ def on_set_alias(args):
 
 
     socketIO.emit('get_alias')
-    socketIO.emit('productpng_kb_publish2alias', {'alias': 'mytestalias1', 'msg': "hello to alias"})
+    socketIO.emit('publish_to_alias', {'alias': 'mytestalias1', 'msg': "hello to alias"})
     socketIO.emit('get_topic_list', {'alias': 'mytestalias1'})
     socketIO.emit('get_state', {'alias': 'mytestalias1'})
 

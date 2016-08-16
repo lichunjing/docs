@@ -144,7 +144,7 @@ def on_set_alias(args):
 
 
     socketIO.emit('get_alias')
-    socketIO.emit('productpng_kb_publish2alias', {'alias': 'mytestalias1', 'msg': "hello to alias"})
+    socketIO.emit('publish_to_alias', {'alias': 'mytestalias1', 'msg': "hello to alias"})
     socketIO.emit('get_topic_list', {'alias': 'mytestalias1'})
     socketIO.emit('get_state', {'alias': 'mytestalias1'})
 
