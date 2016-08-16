@@ -33,13 +33,13 @@ Mac 平台：
 在 WampServer 解压后的 “...\wamp\bin\php” 路径下搜索 php.init 文件并打开该文件，确保 ```extension=php_openssl.dll``` 、```extension=php_curl.dll``` 和 ```extension_dir = ".../ext/"``` 语句**取消注释**（删去代码语句前的"；"）。如下图：
 
 
-![php_extention_php_openssl.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/php_extention_php_openssl.png)
+![phppng_demo_extention_openssl.png](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_extention_openssl.png)
 
 
-![php_extention_php_curl.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/php_extention_php_curl.png)
+![phppng_demo_curl.png](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_curl.png)
 
 
-![php_extention_dir.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/php_extention_dir.png)
+![phppng_demo_extention_dir.png](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_extention_dir.png)
 
 **Mac 平台**
 
@@ -59,7 +59,7 @@ Mac 平台：
 在工程文件中**包含** yunba.php 文件：
 解压下载的 Zip 文件，在 “...\yunba-php-sdk-master\examples” 路径下的 subscribe.php 和 publish.php 文件的第三行添加 yunba.php 文件所在路径。如下图：
 
-![php_include_yunba.php.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/php_include_yunba.php.png)
+![phppng_demo_include_lib.png](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_include_lib.png)
 
 ###3. 运行 examples
 
@@ -94,11 +94,11 @@ $yunba->subscribe(array(
 
 找到 php.exe 文件所在的路径（从 WampServer 下搜索），把这个路径添加到**环境变量**中，运行 subscribe.php 文件进行该话题的**订阅**，如下图：
 
-![php_subscribe.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/php_subscribe_masked.png)
+![php_subscribe.png](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_subscribe_masked.png)
 
 订阅成功如下图：
 
-![php_subscribe_success.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/php_subscribe_success.png)
+![phppng_demo_subscribe_success.png](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_subscribe_success.png)
 
 
 **3. 发布消息**
@@ -107,16 +107,16 @@ $yunba->subscribe(array(
 
 重启 CMD，运行 publish.php 进行该话题下的**消息发布**，如下图：
 
-![php_publish.php.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/php_publish_masked.png)
+![php_publish.php.png](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_publish_masked.png)
 
 消息成功发布如下图：
 
-![php_publish_success.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/php_publish_success.png)
+![phppng_demo_publish_success.png](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_publish_success.png)
 
 
 同一个 AppKey 下并且订阅了该 Topic 的 Android 端将收到消息，如下图：
 
-![php_phone_receiveMSG.jpg](https://raw.githubusercontent.com/yunba/docs/master/image/for_quickstart/php_phone_receiveMSG.jpg)
+![phppng_demo_received_message.png](https://raw.githubusercontent.com/yunba/docs/master/image/phppng_demo_received_message.png)
 
 
 **Mac 平台**

@@ -39,10 +39,10 @@
 * 头像 **有/无 眼睛图标** 表示 **订阅/未订阅 Room 的 Presence 消息**
 
 **Join/Leave 通知：**
-![Presence_join_leave.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_kb/Presence_join_leave.png)
+![productpng_kb_presence_join_and_leave.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_kb_presence_join_and_leave.png)
 
 **Online/Offline 通知：**
-![Presence_online_offline.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_kb/Presence_online_offline.png)
+![productpng_kb_presence_on_offline.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_kb_presence_on_offline.png)
 
 
 #### 例二
@@ -60,9 +60,9 @@
 * 头像 **绿色/灰色** 表示 **在线/离线**
 * 头像 **有/无 眼睛图标** 表示 **订阅/未订阅 Room 的 Presence 消息**
 
-![Presence_B1.gif](https://raw.githubusercontent.com/yunba/docs/master/image/for_kb/Presence_B1.gif)
+![productpng_kb_presence_b1.gif](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_kb_presence_b1.gif)
 
-![Presence_B2.gif](https://raw.githubusercontent.com/yunba/docs/master/image/for_kb/Presence_B2.gif)
+![productpng_kb_presence_b2.gif](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_kb_presence_b2.gif)
 
 通过这个例子，可以看出：
 

@@ -1,6 +1,6 @@
 # 云巴快速入门教程
 
-![quick_start_flow.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_kb/quick_start_flow.png)
+![productpng_kb_quick_start_flow.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_kb_quick_start_flow.png)
 
 ## 第一步 注册账号
 

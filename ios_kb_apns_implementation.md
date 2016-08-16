@@ -26,4 +26,4 @@
 如下图所示，详细步骤可参考 [运行 Yunba iOS Demo](ios_demo_quick_start.md) 一文。
 
 
-![yunba_apns.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_kb/yunba_apns.png)
+![productpng_kb_apns.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_kb_apns.png)

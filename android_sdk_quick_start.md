@@ -4,7 +4,7 @@
 打开 [云巴官方网站](http://yunba.io)，点击注册创建账号。
 
 
-![create_accout.jpg](https://raw.githubusercontent.com/yunba/docs/master/image/register_account.png)
+![create_accout.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_porttal_register_account.png)
 
 
 ## 创建应用
@@ -12,7 +12,7 @@
 注册账号成功跳转到我的应用界面，点击我的应用 --> 创建新应用，输入应用名称和包名（包名为 Java 标准包名规范）。
 
 
-![create_application.jpg](https://raw.githubusercontent.com/yunba/docs/master/image/create_app.png)
+![productpng_portal_creat_application.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_creat_app.png)
 
 
 ## 下载 Android SDK
@@ -25,7 +25,7 @@
 下载的 yunba-sdk-release.jar 包放到项目的 libs 目录下。
 
 
-![libs_android.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/libs_android.jpeg)
+![androidpng_sdk_include_lib.png](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_sdk_include_lib.png)
 
 
 开发工具为 Android Studio 的 Android SDK 导入步骤可参考 [Demo 运行文档](android_demo_quick_start.md)。
@@ -58,7 +58,7 @@
 [AppKey](product_kb_app_key.md) 来自 YunBa 注册的应用，与包名对应。
 
 
-![appkey-pkg.jpg](https://raw.githubusercontent.com/yunba/docs/master/image/copy_app_key.png)
+![appkey-pkg.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_copy_app_key.png)
 
 
 **添加 Appkey**
@@ -186,10 +186,10 @@ YunBa 系统 Publish 的消息会通过广播的形式传递给 App， App 通�
 在 Eclipse 中重新编译项目生成新的 R 文件，在MainActivity，DemoUtil，APIActivity，YunBaTabActivity 重新导入 R 文件。
 
 
-![此处输入图片的描述](https://github.com/yunba/docs/blob/master/image/gen%20R.png?raw=true)
+![此处输入图片的描述](https://github.com/yunba/docs/blob/master/image/androidpng_sdk_genr.png?raw=true)
 
 
-![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/subR.png)
+![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_sdk_rfi.png)
 
 
 ## 运行程序
@@ -210,13 +210,13 @@ YunBa 系统 Publish 的消息会通过广播的形式传递给 App， App 通�
 ### 程序运行主界面
 
 
-![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/main%20window.png)
+![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_sdk_main_window.png)
 
 
 ### API 接口界面展示
 
 
-![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/app%20api.png)
+![此处输入图片的描述](https://raw.githubusercontent.com/yunba/docs/master/image/androidpng_demo_api.png)
 
 
 ## 在 Portal 上发布消息
@@ -224,7 +224,7 @@ YunBa 系统 Publish 的消息会通过广播的形式传递给 App， App 通�
 客户端集成 YunBa SDK 后，打开 Portal 上的应用详情页面，输入频道名称和消息内容，点击 “发送”，订阅该频道的客户端即可收到消息，如图所示:
 
 
-![publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/send_message.png)
+![publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish.png)
 
 
 ## 在 Portal 查看消息发布实时报表
@@ -232,7 +232,7 @@ YunBa 系统 Publish 的消息会通过广播的形式传递给 App， App 通�
 打开应用详情页面，点击 “发布上报统计” 可以查看消息发布 **实时送达比**，如图所示:
 
 
-![report.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/publish_statistic.png)
+![report.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_statistic.png)
 
 
 ## 在 Portal 查看用户在线信息实时报表
@@ -240,7 +240,7 @@ YunBa 系统 Publish 的消息会通过广播的形式传递给 App， App 通�
 打开应用详情页面，点击 “在线用户统计” 可以查看当前在线用户数，用户活跃数等信息，如图所示:
 
 
-![online.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/online_statistic.png)
+![online.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_online_statistic.png)
 
 
 **注**：

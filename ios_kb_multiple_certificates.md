@@ -21,4 +21,4 @@
 
 
 
-![multicert.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_kb/multicert.png)
+![iospng_protal_multi_certificate.png](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_protal_multi_certificate.png)
