@@ -6,7 +6,7 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 用户在云巴官网注册并登录后，可以通过点击页面右上方的用户名进入 Portal 页面。 
 通过云巴的 Portal 页面，可以创建和管理应用、发布消息、查看统计信息，还可以查看通过 Portal 发布过的消息的历史记录。
 
-常有客户疑惑，为什么只有一个设备在线时，Portal 的在线用户统计数量却是 2 ？原因很简单，Portal 也同时是一个 [JavaScript](https://github.com/yunba/yunba-javascript-sdk) 客户端，可以向指定应用（[AppKey](Product_KB_AppKey.md)）的指定 Topic 发布消息，因此会算在统计内。
+常有客户疑惑，为什么只有一个设备在线时，Portal 的在线用户统计数量却是 2 ？原因很简单，Portal 也同时是一个 [JavaScript](https://github.com/yunba/yunba-javascript-sdk) 客户端，可以向指定应用（[AppKey](product_kb_app_key.md)）的指定 Topic 发布消息，因此会算在统计内。
 
 ## 如何在云巴 Portal 上创建新应用
 
@@ -20,7 +20,7 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 
 
 ## 利用云巴 Portal 发布消息
-客户端集成 YunBa SDK 后，打开 Portal 上应用详情页面，可以向客户端 `subscribe` 的 [频道](Product_KB_TopicAndAlias.md)（Topic）发布消息，客户端即可收到消息，如图所示:
+客户端集成 YunBa SDK 后，打开 Portal 上应用详情页面，可以向客户端 `subscribe` 的 [频道](product_kb_topic_and_alias.md)（Topic）发布消息，客户端即可收到消息，如图所示:
 
 ![tutorials_push_notification_iOS_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_tutorials/tutorials_push_notification_iOS_publish.png)
 
@@ -35,8 +35,8 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 ### Publish2 发布消息
 
 - 点击 **Publish2** 可测试扩展参数的消息的发送，如下图。
-- 点击 **更多选项** 可设置 [离线消息](Product_KB_OfflineMessage.md) 保留时间（Time To Live）、[QoS](Product_KB_QoS.md) 值 和 Message ID（如果不填则由系统自动生成）
-- 可设置 **APN JSON** 发送 APNs 消息，发送 APNs 消息的方法具体可参考 [如何通过云巴实现 APNs 推送](iOS_KB_APNsImplementation.md) 和 [APNs 参数设置](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)。
+- 点击 **更多选项** 可设置 [离线消息](product_kb_offline_message.md) 保留时间（Time To Live）、[QoS](product_kb_qos.md) 值 和 Message ID（如果不填则由系统自动生成）
+- 可设置 **APN JSON** 发送 APNs 消息，发送 APNs 消息的方法具体可参考 [如何通过云巴实现 APNs 推送](ios_kb_apns_implementation.md) 和 [APNs 参数设置](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)。
 
 ![publish2.png](https://raw.githubusercontent.com/yunba/docs/master/image/for_kb/Portal_publish2.png)
 
@@ -49,7 +49,7 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 
 ![report.jpeg](https://raw.githubusercontent.com/yunba/docs/master/image/publish_statistic.png)
 
-如图所示，可查看该应用（[AppKey](Product_KB_AppKey.md)） 下的消息发布和送达情况。
+如图所示，可查看该应用（[AppKey](product_kb_app_key.md)） 下的消息发布和送达情况。
 
 蓝色波形为一定时间（10 秒、分钟、小时、日）内的消息发布数量；黑色波形为一定时间内的消息送达数量。（Portal 也属于一个用户）
 
@@ -64,6 +64,6 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 
 ### 频道用户列表
 
-点击 **频道用户列表**，可查看应用（[AppKey](Product_KB_AppKey.md)） 下某个 [频道](Product_KB_TopicAndAlias.md) 的收听用户别名列表。
+点击 **频道用户列表**，可查看应用（[AppKey](product_kb_app_key.md)） 下某个 [频道](product_kb_topic_and_alias.md) 的收听用户别名列表。
 
 
