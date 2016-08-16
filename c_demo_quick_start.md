@@ -96,6 +96,7 @@ int main(int argc, char** argv)
 
 ###3. 'stdinpub\_present'的使用
 stdinpub\_present 的使用方法是 `stdinpub\_present <topic name> --appkey <appkey> --deviceid <deviceid> --retained --qos <qos> --delimiter <delimiter>`。`<topic name>`和`<appkey>`是必须的，其余为可选项，不填的话使用默认值，其中`<deviceid>`可以使用已有的，没有的话系统会自动给您分配一个，用以在后台区分用户；`retained`默认关闭，打开后可以收到自己发送的消息；`<delimiter>`为分隔符，打出该字符后会发送该字符前的字符，默认为`\n`。
+
 	- 示例：`./stdinpub_present test --appkey XXXXXXXXXXXXXXXXXXXXXXXX --retained`
 
 ###4. 结果
@@ -103,4 +104,5 @@ stdinpub\_present 的使用方法是 `stdinpub\_present <topic name> --appkey <a
 
 ###5. 'stdouta\_demo'的使用
 stdouta\_demo 的使用方法与 stdinpub\_present 类似，只是没有了向服务器查询的过程。
+
 	- 示例：`./stdouta_demo tttest --appkey XXXXXXXXXXXXXXXXXXXXXXXX`
