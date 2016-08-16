@@ -1,5 +1,38 @@
 # Yunba JavaScript SDK API 手册
 
+## Yunba
+
+### 功能
+
+创建 Yunba 实例。使用在云巴 [Portal](product_kb_portal.md) 上创建应用获取到的 [AppKey](product_kb_app_key.md) 创建 Yunba 实例。
+
+```javascript
+new Yunba(obj);
+```
+### 参数说明
+
+名称 | 类型 | 说明
+--------- | ------- |  -----------
+obj.server | String | 参数可选。服务器的地址。
+obj.port | Number | 参数可选。服务器的端口。如果使用 SSL/TLS 方式进行连接，则`port`为`443`；否则，`port`为`3000`。
+appkey | String | 参数必选。应用标识，即，在云巴 [Portal](product_kb_portal.md) 上创建应用获取到的 [AppKey](product_kb_app_key.md)。
+
+**注**：
+
+1. 如`obj.server`中未指定`https://`或`http://`，Socket.IO-Client 会自动检测浏览器当前的策略（scheme），选择相应的方式（http/https）进行连接。在这种情况下，用户需要注意选择合适的`port`。使用 SSL/TLS 方式进行连接，则`port`为`443`；否则，`port`为`3000`。
+
+2. 如果想使用 SSL/TLS 方式连接，则`obj.server`请填写`https://sock.yunba.io`、`port`使用`443`。
+
+### 代码示例
+
+```javascript
+var yunba = new Yunba({server: 'http://sock.yunba.io', port: 3000, appkey: 'XXXXXXXXXXXXXXXXXXXXXX'});
+```
+```javascript
+//使用 SSL/TSL 方式连接：
+var yunba = new Yunba({server: 'https://sock.yunba.io', port: 443, appkey: 'XXXXXXXXXXXXXXXXXXXXXX'});
+```
+
 ## init
 
 ### 功能
