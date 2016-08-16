@@ -20,5 +20,5 @@
 云巴会自动检测哪个证书对应哪个设备，确保消息送达所有的订阅设备。
 
 
-
+注意：*如果您使用了生产和开发证书两个证书来进行推送：云巴会根据 SDK 上报的状态自动选择生产或者开发证书，也就是说，消息会推送给使用开发或生产证书的所有设备。如果您只需要发送给某一个证书下的 App，建议使用测试的 Topic，或暂时删除另一个证书。*
 ![iospng_protal_multi_certificate.png](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_protal_multi_certificate.png)
