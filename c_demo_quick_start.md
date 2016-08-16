@@ -8,8 +8,9 @@
 	* Microsoft Visual Studio 2015
 	* YunBa C SDK
 - Linux & OS X
-	* GNU make
+	* GNU Make,gcc
 	* GNU bash
+	* OpenSSL
 
 ## 准备工作
 
