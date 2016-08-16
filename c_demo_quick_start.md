@@ -3,10 +3,13 @@
 本文介绍如何运行 Yunba C SDK 中的其中一个 Demo 示例程序。
 
 本文涉及的运行环境如下：
-
-* Windows 10 Pro
-* Microsoft Visual Studio 2015
-* YunBa C SDK
+- Windows
+	* Windows 10 Pro
+	* Microsoft Visual Studio 2015
+	* YunBa C SDK
+- Linux & OS X
+	* GNU make
+	* GNU bash
 
 ## 准备工作
 
@@ -20,6 +23,8 @@
 打开 [云巴官方网站](http://yunba.io)，点击右上角的“注册”按钮创建账号。  
 
 ## 详细步骤
+
+### - Windows
 
 ###1. 在云巴 Portal 上创建新应用
 请参考 [运行 Yunba Android Demo](android_demo_quick_start.md) 
@@ -81,5 +86,21 @@ int main(int argc, char** argv)
 
 ![cpng_demo_console.png](https://raw.githubusercontent.com/yunba/docs/master/image/cpng_demo_console.png)
 
-详细的程序逻辑，请参考项目源程序。
+### - Linux & OS X
 
+###1. make
+使用 make 来生成可执行文件，本 demo 包含一份 makefile，在 makefile 所在的路径下执行`make`，成功后会在 /yunba-c-sdk-master/build/output/sample/ 下生成 stdouta\_demo 和 stdinpub\_present 两个可执行文件。*注意在使用 make 的时候如果你的电脑有多于一个的 C 标准库，就需要在 make 的时候加上`-stdlib=libstdc++`来选择标准库，否则会产生错误。*
+
+###2. 执行
+使用 bash 或其它命令行工具进入可执行文件的路径，然后执行该程序。
+
+###3. 'stdinpub\_present'的使用
+stdinpub\_present 的使用方法是 `stdinpub\_present <topic name> --appkey <appkey> --deviceid <deviceid> --retained --qos <qos> --delimiter <delimiter>`。`<topic name>`和`<appkey>`是必须的，其余为可选项，不填的话使用默认值，其中`<deviceid>`可以使用已有的，没有的话系统会自动给您分配一个，用以在后台区分用户；`retained`默认关闭，打开后可以收到自己发送的消息；`<delimiter>`为分隔符，打出该字符后会发送该字符前的字符，默认为`\n`。
+	- 示例：`./stdinpub_present test --appkey XXXXXXXXXXXXXXXXXXXXXXXX --retained`
+
+###4. 结果
+运行成功后会订阅该频道，并向该频道发送一个消息，您可以在 Portal 中看到。还会向服务器询问该 topic 的 aliaslist、topic 和 status 的信息，获取完以后当您按回车之后会发送在分割符`<delimiter>`之前的字符。
+
+###5. 'stdouta\_demo'的使用
+stdouta\_demo 的使用方法与 stdinpub\_present 类似，只是没有了向服务器查询的过程。
+	- 示例：`./stdouta_demo tttest --appkey XXXXXXXXXXXXXXXXXXXXXXXX`
