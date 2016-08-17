@@ -21,7 +21,7 @@ Mac 平台：
 ## 准备工作
 
 ###1. 注册云巴开发者账号
-打开 [云巴官方网站](http://yunba.io)，点击右上角的 “注册” 按钮创建账号。  
+打开 [云巴官方网站](https://yunba.io)，点击右上角的 “注册” 按钮创建账号。  
 
 ###2. 下载云巴 PHP SDK
 这里使用的是 Yunba PHP SDK，可打开 [其 GitHub 页](https://github.com/yunba/yunba-php-sdk)，下载 Zip 文件。

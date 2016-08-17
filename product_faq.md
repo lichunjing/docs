@@ -245,7 +245,7 @@ AppKey，即可互相通讯。
 答： 可在`publish2ToAlias()`、`publish2()`的 ApnOption 参数设置消息通知的方式。
 alert 设置消息通知栏的内容；badge 设置角标；sound 设置通知的铃声。
 
-具体参考云巴知识库的 [Payload](ios_kb_payload.md) 一文，以及 [iOS 官方文档](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)，或参考 [iOS demo](http://yunba.io/developers/) 中有关 ApnOption 的设置方法。
+具体参考云巴知识库的 [Payload](ios_kb_payload.md) 一文，以及 [iOS 官方文档](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)，或参考 [iOS demo](https://yunba.io/developers/) 中有关 ApnOption 的设置方法。
 
 ---
 **问： 如何自定义 iOS 推送的铃声？**
@@ -291,7 +291,7 @@ alert 设置消息通知栏的内容；badge 设置角标；sound 设置通知�
 ---
 **问： iOS 端如何设置通知方式？**
 
-答： 上传 APNs 证书；通过 YBPublish2Option 参数的 alert 设置通知栏内容、角标和声音等，具体参考 sdk 中关于[`pushlish2()`](ios_sdk_api_manual.md#publish2)的介绍，也可以下载并参考 [iOS demo](http://yunba.io/developers/) 中 YBPublish2Option 的设置。
+答： 上传 APNs 证书；通过 YBPublish2Option 参数的 alert 设置通知栏内容、角标和声音等，具体参考 sdk 中关于[`pushlish2()`](ios_sdk_api_manual.md#publish2)的介绍，也可以下载并参考 [iOS demo](https://yunba.io/developers/) 中 YBPublish2Option 的设置。
 
 完整的设置方法请参考 [iOS 官方文档](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/TheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH107-SW1)。
 
@@ -348,7 +348,7 @@ qos 设置为 1 或 2，就能够保证离线消息的送达；设置 time_to_li
 ---
 **问： 如何接收离线消息？**
 
-答： 用[`connect_by_customid()`](http://yunba.io/docs2/Javascript_SDK/#connect_by_customid
+答： 用[`connect_by_customid()`](https://yunba.io/docs2/Javascript_SDK/#connect_by_customid
 ) 进行连接，连接后的会话状态与上次连接一致（包括离线消息、已订阅的频道和别名）。`connect()`仅用于测试，无法接收离线消息。
 
 ---

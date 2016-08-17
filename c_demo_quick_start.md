@@ -21,7 +21,7 @@
 ![cpng_demo_directory.png](https://raw.githubusercontent.com/yunba/docs/master/image/cpng_demo_directory.png)
 
 ###2. 注册云巴开发者账号
-打开 [云巴官方网站](http://yunba.io)，点击右上角的“注册”按钮创建账号。  
+打开 [云巴官方网站](https://yunba.io)，点击右上角的“注册”按钮创建账号。  
 
 ## 详细步骤
 

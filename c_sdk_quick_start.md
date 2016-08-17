@@ -1,7 +1,7 @@
 #Yunba C 快速入门
 ## 注册开发者账号
 
-打开 [云巴官方网站](http://yunba.io)， 点击注册创建账号。
+打开 [云巴官方网站](https://yunba.io)， 点击注册创建账号。
 
 ![create_accout.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_register_account.png)
 
@@ -15,7 +15,7 @@
 
 你可以使用下面命令去获得 SDK
 
-打开 [开发者资源页面](http://yunba.io/developers/) 下载 C SDK。
+打开 [开发者资源页面](https://yunba.io/developers/) 下载 C SDK。
 
 ##怎么开始
 ###1.添加 lib 以及 header 到 Makefile：

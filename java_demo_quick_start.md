@@ -12,7 +12,7 @@
 ## 准备工作
 
 ###1. 注册云巴开发者账号
-打开 [云巴官方网站](http://yunba.io)，点击右上角的 “注册” 按钮创建账号。  
+打开 [云巴官方网站](https://yunba.io)，点击右上角的 “注册” 按钮创建账号。  
 
 ###2. 下载云巴 Java SDK
 下载 [yunba-java-sdk](https://github.com/yunba/yunba-java-sdk)，并解压。
