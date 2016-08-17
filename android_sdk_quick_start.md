@@ -224,7 +224,7 @@ YunBa 系统 Publish 的消息会通过广播的形式传递给 App， App 通�
 客户端集成 YunBa SDK 后，打开 Portal 上的应用详情页面，输入频道名称和消息内容，点击 “发送”，订阅该频道的客户端即可收到消息，如图所示:
 
 
-![publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish.png)
+![productpng_portal_publish_to_topic.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_to_topic.png)
 
 
 ## 在 Portal 查看消息发布实时报表

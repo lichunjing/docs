@@ -68,7 +68,7 @@
 
 打开应用详情页面，点击发布消息，如图所示:  
 
-![productpng_portal_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish.png)
+![productpng_portal_publish_to_topic.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_to_topic.png)
 
 ## 在 Portal 查看消息发布实时报表
 

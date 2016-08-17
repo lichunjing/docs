@@ -67,7 +67,7 @@ Android Demo 中已经包含了相关的处理代码，您无需添加代码即�
 
 在 Android 手机端订阅“news”，然后在 Portal 上发送消息：
 
-![productpng_portal_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish.png)
+![productpng_portal_publish_to_topic.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_to_topic.png)
 
 
 即可在 Android 手机端订阅收到消息：

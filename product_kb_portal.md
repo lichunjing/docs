@@ -22,7 +22,7 @@ Portal，即 “门户”。云巴的 Portal 是用户应用的管理入口，�
 ## 利用云巴 Portal 发布消息
 客户端集成 YunBa SDK 后，打开 Portal 上应用详情页面，可以向客户端 `subscribe` 的 [频道](product_kb_topic_and_alias.md)（Topic）发布消息，客户端即可收到消息，如图所示:
 
-![productpng_portal_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish.png)
+![productpng_portal_publish_to_topic.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_to_topic.png)
 
 在客户端（以 Android 客户端为例）订阅频道：
 

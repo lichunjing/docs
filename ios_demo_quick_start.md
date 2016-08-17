@@ -62,7 +62,7 @@ iOS SDK Demo 的代码已经实现了订阅、接收等逻辑，您无需添加�
 
 在 Xcode 的 General --> Identity 页面，修改 Bundle Identifier 的值，如图所示：
 
-![iospng_demo_file_list_identity.png](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_demo_file_list_identity.png)
+![iospng_demo_bundle_identity.png](https://raw.githubusercontent.com/yunba/docs/master/image/iospng_demo_bundle_identity.png)
 
 **4.4. 配置 Code Signing**
 
@@ -98,7 +98,7 @@ App 在真机上运行起来后，可以通过左右拨动，切换到不同的�
 
 在 Portal 上发送消息：
 
-![productpng_portal_publish.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish.png)
+![productpng_portal_publish_to_topic.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_publish_to_topic.png)
 
 
 App 在前台运行时会收到内部消息：
