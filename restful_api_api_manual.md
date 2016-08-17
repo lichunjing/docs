@@ -5,7 +5,7 @@
 
 打开 [云巴官方网站](http://yunba.io)，点击注册创建账号。
 
-![create_accout.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_porttal_register_account.png)
+![create_accout.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_register_account.png)
 
 ## 在云巴 Portal 上创建新应用
 
