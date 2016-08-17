@@ -241,13 +241,13 @@
   release: true
   docs: 
     - name: API 手册
-      markdown: js_sdk_api_manual.md
-      url: js_sdk_api_manual
+      markdown: java_sdk_api_manual.md
+      url: java_sdk_api_manual
       show: true
       release: true
     - name: 运行 Yunba Java Demo
-      markdown: js_demo_quick_start.md
-      url: js_demo_quick_start
+      markdown: java_demo_quick_start.md
+      url: java_demo_quick_start
       show: true 
       release: true
 - name: PHP(Cli)
