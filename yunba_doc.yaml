@@ -186,8 +186,8 @@
       show: true
       release: true
     - name: Embedded C API 手册
-      markdown: Embeddedc_sdk_api_manual.md
-      url: Embeddedc_sdk_api_manual
+      markdown: embeddedc_sdk_api_manual.md
+      url: embeddedc_sdk_api_manual
       show: true
       release: true
     - name: 运行 Yunba C Demo
