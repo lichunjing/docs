@@ -4,7 +4,7 @@
 
 ## 第一步 注册账号
 
-打开 [云巴官方网站](http://yunba.io)，注册并登录。
+打开 [云巴官方网站](https://yunba.io)，注册并登录。
 
 ## 第二步 创建新应用
 
@@ -14,7 +14,7 @@
 
 ## 第三步 下载 SDK
 
-在云巴官网的 [开发者页面](http://yunba.io/developers/) 或云巴的 [Github](https://github.com/yunba) 上找到所需平台的 SDK，并下载。
+在云巴官网的 [开发者页面](https://yunba.io/developers/) 或云巴的 [Github](https://github.com/yunba) 上找到所需平台的 SDK，并下载。
 
 每种 SDK 的文件包内都包含一个 Demo，用来演示主要 API 的用法和功能。
 建议您从运行 Demo 开始熟悉云巴的 SDK，详见各个 SDK 的 Demo 运行的文档。

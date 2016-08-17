@@ -42,7 +42,7 @@ Windows 平台：
 有关 virtualenv 的详细用法，请参考 [virtualenv 的官方文档](https://virtualenv.pypa.io/en/latest/userguide.html)。
 
 ###3. 注册云巴开发者账号
-打开 [云巴官方网站](http://yunba.io)，点击右上角的“注册”按钮创建账号。  
+打开 [云巴官方网站](https://yunba.io)，点击右上角的“注册”按钮创建账号。  
 
 ## 准备工作——Windows 平台
 

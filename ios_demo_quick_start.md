@@ -10,19 +10,19 @@
 ## 准备工作
 
 ###1. 注册云巴开发者账号
-打开 [云巴官方网站](http://yunba.io)，点击右上角的“注册”按钮创建账号。  
+打开 [云巴官方网站](https://yunba.io)，点击右上角的“注册”按钮创建账号。  
 
 ###2. 下载云巴 iOS SDK
-打开 [云巴开发者页面](http://yunba.io/developers)，下载最新版本的 iOS SDK。iOS SDK 包含 Demo 程序和开发者所需嵌入的 lib 库以及头文件。
+打开 [云巴开发者页面](https://yunba.io/developers)，下载最新版本的 iOS SDK。iOS SDK 包含 Demo 程序和开发者所需嵌入的 lib 库以及头文件。
 
 ## 详细步骤
 
 ###1. 生成 APNs 证书
-iOS Demo 程序会用到 APNs，因此，在运行之前，请先参考 [生成 APNs 证书的步骤](http://yunba.io/docs2/create_apns_certificate) 一文，生成 APNs 证书。
+iOS Demo 程序会用到 APNs，因此，在运行之前，请先参考 [生成 APNs 证书的步骤](https://yunba.io/docs2/create_apns_certificate) 一文，生成 APNs 证书。
 
 ###2. 在云巴 Portal 上创建新应用
 
-打开 [云巴官方网站](http://yunba.io)，登录，点击 我的应用 --> 创建新应用。
+打开 [云巴官方网站](https://yunba.io)，登录，点击 我的应用 --> 创建新应用。
 
 ![productpng_portal_creat_app.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_creat_app.png)
 

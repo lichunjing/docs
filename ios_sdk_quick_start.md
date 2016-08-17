@@ -1,6 +1,6 @@
 # Yunba iOS SDK 快速入门
 ## 注册开发者账号
-打开 [云巴官方网站](http://yunba.io), 点击注册创建账号。  
+打开 [云巴官方网站](https://yunba.io), 点击注册创建账号。  
 
 ![productpng_portal_register_account.png](https://raw.githubusercontent.com/yunba/docs/master/image/productpng_portal_register_account.png)
 
@@ -11,7 +11,7 @@
 
 ## 下载 iOS SDK
 
-打开 [开发者资源页面](http://yunba.io/developers/>) 下载 iOS SDK， iOS SDK 包含 DEMO 程序和开发者所需嵌入的 lib 库以及头文件。  
+打开 [开发者资源页面](https://yunba.io/developers/>) 下载 iOS SDK， iOS SDK 包含 DEMO 程序和开发者所需嵌入的 lib 库以及头文件。  
 
 ## 导入 iOS SDK
 
