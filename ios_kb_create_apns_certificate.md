@@ -5,7 +5,7 @@
 
 1. 制作 APNs 证书时，需要一个 CSR（CertificateSigningRequest.certSigningRequest）文件，来使新生成的推送证书与私钥相匹配。CSR 文件的新建步骤请参考 [新建 CSR 文件的步骤](ios_kb_create_csr_file.md)。
 
-2. 如果您还没有创建 App ID，请参考 [新建 App ID 的步骤](ios_kb_productpng_portal_creat_app_id.md) 一文，创建一个 App ID，并为 App 开启 Push Notification 功能。如果已经创建过了，可跳过此步，只需在设置页面中确认该 App 已开启了 Push Notification 功能即可。**注意，这里的 App ID 不可以使用通配符。**
+2. 如果您还没有创建 App ID，请参考 [新建 App ID 的步骤](ios_kb_create_app.md) 一文，创建一个 App ID，并为 App 开启 Push Notification 功能。如果已经创建过了，可跳过此步，只需在设置页面中确认该 App 已开启了 Push Notification 功能即可。**注意，这里的 App ID 不可以使用通配符。**
 
 ## 详细步骤
 
